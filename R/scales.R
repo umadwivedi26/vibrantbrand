@@ -1,6 +1,6 @@
 
 
-
+#'@export
 scale_color_vibrant <- function(palette = "mixed",
                                 discrete = TRUE,
                                 reverse = FALSE, ...) {
@@ -13,7 +13,7 @@ scale_color_vibrant <- function(palette = "mixed",
   }
 }
 
-
+#'@export
 scale_fill_vibrant <- function(palette = "mixed",
                                discrete = TRUE,
                                reverse = FALSE, ...) {

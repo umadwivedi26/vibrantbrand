@@ -1,5 +1,5 @@
 
-
+#'@export
 vibrant_colors <- c(`deep_blue` = '#1b3151',
                     `vibrant_blue` = '#4684ff',
                     `bright_green` = '#00ebaa',
@@ -11,9 +11,10 @@ vibrant_colors <- c(`deep_blue` = '#1b3151',
                     `light_blue` = '#a2c2ff',
                     `powder_blue` = '#c8d9ff',
                     `mint` = '#81f5d4')
-
+#'@export
 col_names <- names(vibrant_colors)
 
+#'@export
 vibrant_cols <- function(...){
   cols <- c(...)
   if (is.null(cols))

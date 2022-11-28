@@ -3,7 +3,7 @@ sysfonts::font_add_google(name="Poppins", family="poppins")
 showtext::showtext_auto()
 
 
-
+#'@export
 theme_vibrant <- function(){
   `%+replace%` <- ggplot2::`%+replace%`
   font <- "Poppins"
@@ -57,7 +57,7 @@ theme_vibrant <- function(){
 
 
 
-
+#'@export
 theme_vibrant_dark <- function(){
   `%+replace%` <- ggplot2::`%+replace%`
   font <- "Poppins"

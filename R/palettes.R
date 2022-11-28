@@ -1,5 +1,5 @@
 
-
+#'@export
 vibrant_palettes <- list(`main` = vibrant_cols('deep_blue',
                                                'bright_lime',
                                                'vibrant_blue',
@@ -16,7 +16,7 @@ vibrant_palettes <- list(`main` = vibrant_cols('deep_blue',
                                                 'light_blue',
                                                 'warm_red',
                                                 'bright_purple'))
-
+#'@export
 vibrant_pal <- function(palette = "mixed", reverse = FALSE, ...){
   pal <- vibrant_palettes[[palette]]
   if (reverse) pal <- rev(pal)
